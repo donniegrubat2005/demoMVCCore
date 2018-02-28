@@ -1,0 +1,22 @@
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.deps.json
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.runtimeconfig.json
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.runtimeconfig.dev.json
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.dll
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.pdb
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.csprojResolveAssemblyReference.cache
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.csproj.CoreCompileInputs.cache
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.AssemblyInfoInputs.cache
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.AssemblyInfo.cs
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.dll
+C:\Development\Microsoft\C#\Net Core\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.pdb
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.deps.json
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.runtimeconfig.json
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.runtimeconfig.dev.json
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.dll
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\bin\Debug\netcoreapp2.0\demoMVCCore.pdb
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.csprojResolveAssemblyReference.cache
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.csproj.CoreCompileInputs.cache
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.AssemblyInfoInputs.cache
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.AssemblyInfo.cs
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.dll
+C:\Development\Microsoft\C#\NetCore\demoMVCCore\demoMVCCore\obj\Debug\netcoreapp2.0\demoMVCCore.pdb
