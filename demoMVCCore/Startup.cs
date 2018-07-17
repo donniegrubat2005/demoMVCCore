@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ReflectionIT.Mvc.Paging;
 
 namespace demoMVCCore
 {
@@ -27,6 +28,8 @@ namespace demoMVCCore
 
             services.AddDbContext<AppdbContext>(options
              => options.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
+
+            services.AddPaging();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

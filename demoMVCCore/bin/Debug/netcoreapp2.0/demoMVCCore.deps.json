@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "e531c305d00baddce899010831a73f4f436ee99a"
+    "signature": "88b08e5612ca62c487ccb8428a691899597588e7"
   },
   "compilationOptions": {
     "defines": [
@@ -28,7 +28,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.1",
           "Microsoft.NETCore.App": "2.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.2",
+          "ReflectionIT.Mvc.Paging": "2.4.0"
         },
         "runtime": {
           "demoMVCCore.dll": {}
@@ -2503,6 +2504,23 @@
         },
         "compile": {
           "lib/netstandard1.3/NuGet.Frameworks.dll": {}
+        }
+      },
+      "ReflectionIT.Analyzer/1.1.0": {},
+      "ReflectionIT.Mvc.Paging/2.4.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.0.2",
+          "Microsoft.AspNetCore.Mvc.Razor": "2.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.1",
+          "Microsoft.Extensions.FileProviders.Embedded": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0",
+          "ReflectionIT.Analyzer": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ReflectionIT.Mvc.Paging.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/ReflectionIT.Mvc.Paging.dll": {}
         }
       },
       "Remotion.Linq/2.1.1": {
@@ -5464,6 +5482,20 @@
       "sha512": "sha512-WCkN68c8q+USG+Ot1MmBDH+9DUo5dk7UB0QDMiwCYhrH7ZoFLKFGGNzJ8C3LTR1DvB1LW9BOxKeznnZznKiCTA==",
       "path": "nuget.frameworks/4.0.0",
       "hashPath": "nuget.frameworks.4.0.0.nupkg.sha512"
+    },
+    "ReflectionIT.Analyzer/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uN9N6YnyMkp8vpBToJklhjFpmxLAO8ODZCOfyPRe74URRQsQUVY5VcMxdn1oJhEtjjBSRnZymfUcCeg+0F71bg==",
+      "path": "reflectionit.analyzer/1.1.0",
+      "hashPath": "reflectionit.analyzer.1.1.0.nupkg.sha512"
+    },
+    "ReflectionIT.Mvc.Paging/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-taRXjsB07XSaVNJoUp0ehmUZyEPFGFzI57s51n7rEXRY4VBgfgbypuGicA+q9c1rquoo500206OPDuOcGiUFjg==",
+      "path": "reflectionit.mvc.paging/2.4.0",
+      "hashPath": "reflectionit.mvc.paging.2.4.0.nupkg.sha512"
     },
     "Remotion.Linq/2.1.1": {
       "type": "package",

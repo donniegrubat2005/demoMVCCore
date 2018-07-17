@@ -6,22 +6,27 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using demoMVCCore.Models;
 using demoMVCCore.Models.Data;
+using ReflectionIT.Mvc.Paging;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace demoMVCCore.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly AppdbContext context;
+        private readonly AppdbContext _context;
 
         public HomeController(AppdbContext context) {
-            this.context = context;
+            this._context = context;
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(int page =1)
           
         {
-            var emp = context.Employees.ToList();
+            //var emp = _context.Employees.ToList();
+            var query = _context.Employees.AsNoTracking().OrderBy(e => e.LastName);
+            var emp = PagingList.Create(query, 5, page);
             return View(emp);
         }
 
@@ -34,15 +39,15 @@ namespace demoMVCCore.Controllers
         public IActionResult Create(Employee emp)
         {
             if (!ModelState.IsValid) return View(emp);
-            context.Add(emp);
-            context.SaveChanges();
+            _context.Add(emp);
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var emp = context.Employees.Find(id);
+            var emp = _context.Employees.Find(id);
             return View(emp);
         }
 
@@ -50,17 +55,17 @@ namespace demoMVCCore.Controllers
         public IActionResult Edit(Employee emp)
         {
             if (!ModelState.IsValid) return View(emp);
-            context.Employees.Update(emp);
-            context.SaveChanges();
+            _context.Employees.Update(emp);
+            _context.SaveChanges();
             return RedirectToAction("index");
         }
 
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var emp = context.Employees.Find(id);
-            context.Employees.Remove(emp);
-            context.SaveChanges();
+            var emp = _context.Employees.Find(id);
+            _context.Employees.Remove(emp);
+            _context.SaveChanges();
             return RedirectToAction("index");
         }
 
